@@ -109,11 +109,15 @@ nav #header-btn:hover {
 
 #section-1 .sect_1-left h1 {
   font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 2px;
   margin-bottom: 30px;
 }
 
 #section-1 .sect_1-left p {
   font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 2px;
   margin-bottom: 30px;
 }
 
@@ -153,6 +157,120 @@ nav #header-btn:hover {
 
 #section-1 .sect_1-right img {
   width: 100%;
+}
+
+#section-2 {
+  padding: 80px 0;
+}
+
+#section-2 .sect_2-cont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  border-bottom: 1px solid #BDB5AF;
+  text-align: center;
+}
+
+#section-2 .sect_2-cont h2 {
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 500px;
+}
+
+#section-2 .sect_2-cont .sect_2-cols {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: baseline;
+          align-items: baseline;
+  margin-bottom: 80px;
+}
+
+#section-2 .sect_2-cont .sect_2-cols .col {
+  width: 200px;
+  text-align: center;
+}
+
+#section-2 .sect_2-cont .sect_2-cols .col img {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+#section-2 .sect_2-cont .before {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#section-2 .sect_2-cont .before img {
+  width: 250px;
+}
+
+#section-3 {
+  padding: 80px 0;
+}
+
+#section-3 .sect_3-cont {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+#section-3 .sect_3-cont h2 {
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 500px;
+}
+
+#section-3 .sect_3-cont .sect_3-cols {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: baseline;
+          align-items: baseline;
+  margin-bottom: 80px;
+}
+
+#section-3 .sect_3-cont .sect_3-cols .col {
+  width: 200px;
+  text-align: center;
+}
+
+#section-3 .sect_3-cont .sect_3-cols .col img {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+#section-3 .sect_3-cont .after {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#section-3 .sect_3-cont .after img {
+  width: 250px;
+}
+
+#section-3 .sect_3-cont span {
+  font-size: 26px;
+  font-weight: bold;
 }
 
 footer {
