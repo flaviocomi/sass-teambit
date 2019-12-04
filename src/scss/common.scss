@@ -15,3 +15,33 @@ a {
   width: 20px;
   margin-right: 5px;
 }
+
+.btns {
+  margin-bottom: 30px;
+
+  .sect-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    background-color: #30488f;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  span {
+    color: #bdb5af;
+    margin: 0 10px;
+  }
+
+  a {
+    font-size: 14px;
+
+    &:hover {
+      color: #30488f;
+
+      i {
+        color: #30488f;
+      }
+    }
+  }
+}

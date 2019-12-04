@@ -3,3 +3,80 @@
 #section-8 {
   background-color: #ffe7d2;
 }
+
+
+#section-4,
+#section-5,
+#section-6,
+#section-7 {
+  display: flex;
+  padding: 80px 0;
+
+  .left,
+  .right {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .mid-sect {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    h3,
+    p,
+    a {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 26px;
+    }
+
+    p,
+    a {
+      font-size: 22px;
+    }
+
+    .mid-sect-img {
+      text-align: center;
+
+      img {
+        width: 200px;
+      }
+    }
+  }
+
+}
+
+#section-4,
+#section-6 {
+  .mid-sect {
+    margin-left: 30px;
+  }
+}
+
+#section-5,
+#section-7 {
+  .mid-sect {
+    float: right;
+  }
+}
+
+
+#section-4,
+#section-5,
+#section-6,
+#section-7,
+#section-8 {
+  a:hover {
+    color: #30488f;
+
+    i {
+      color: #30488f;
+    }
+  }
+}
